@@ -1,0 +1,8 @@
+# Ignore sensitive trading config files
+trading_config.py
+Phemex_trading_config.py
+
+# Ignore Python cache and IDE folders
+__pycache__/
+*.pyc
+.idea/
