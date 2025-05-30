@@ -1,8 +1,15 @@
-# Ignore sensitive trading config files
+# Ignore config files
+*.pyc
+__pycache__/
+*.zip
+*.csv
+*.txt
+
+# Ignore your trading config files specifically
 trading_config.py
 Phemex_trading_config.py
 
-# Ignore Python cache and IDE folders
-__pycache__/
-*.pyc
+# Ignore other local environment files if any
+.env
 .idea/
+.vscode/
